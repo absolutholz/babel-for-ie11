@@ -1,0 +1,16 @@
+version: '3.7'
+
+services:
+  babel:
+    container_name: babel
+    build:
+      context: .
+      dockerfile: ./docker-config/babel/Dockerfile
+    working_dir: /var/www/babel
+    volumes:
+      - ./:/var/www/babel
+      - "npm_cache:/var/www/babel/node_modules"
+    command: bash -c "tail -f /dev/null"
+
+volumes:
+  npm_cache:

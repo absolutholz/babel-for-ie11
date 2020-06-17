@@ -1,0 +1,13 @@
+{
+    "name": "babel-for-ie11",
+    "version": "1.0.0",
+    "description": "Simple setup for testing what I can resonably transpile for IE11 with babel ",
+    "main": "package.json",
+    "scripts": {},
+    "keywords": [
+        "babel",
+        "ie11"
+    ],
+    "author": "absolutholz",
+    "license": "GPL-3.0-or-later"
+}
